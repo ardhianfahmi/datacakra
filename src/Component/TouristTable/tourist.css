@@ -1,0 +1,106 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 32px;
+}
+
+th {
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  padding: 11px;
+}
+
+td {
+  background-color: rgb(249 249 249);
+  border-spacing: none;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}
+
+.imgTourist {
+  border-radius: 20px;
+  /* padding: 7px; */
+  width: 40%;
+}
+
+.edit {
+  background: #c3e6c7;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  border-radius: 7px;
+  font-weight: bold;
+  color: #4d4d4d;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.delete {
+  background: #e04f4f;
+  border: none;
+  padding: 10px 25px 10px 25px;
+  border-radius: 7px;
+  font-weight: bold;
+  color: #4d4d4d;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+.create {
+  float: right;
+  left: right;
+  right: 3%;
+  position: absolute;
+}
